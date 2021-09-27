@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const PORT = process.env.PORT || 9001
+require('dotenv').config()
 
 const app = express();
 app.use(express.urlencoded({extended: true}))
