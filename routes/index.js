@@ -1,5 +1,5 @@
-const API = require('./API')
-const view = require('./view')
+const API = require('./api.js')
+const view = require('./view.js')
 const router = require('express').Router()
 
 router.use('/', view)
